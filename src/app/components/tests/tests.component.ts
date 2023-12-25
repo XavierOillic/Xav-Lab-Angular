@@ -48,7 +48,7 @@ let arrL = [];
 const filtrL = user.filter(function(arrL){
     return arrL.name.toLowerCase().includes(searchL);
   })
-console.log(" EX. 3 J.Bojko\n v v v v v ");
+console.log(" EX. 3 J.Bojko\n     v v v v v ");
 console.log(filtrL);
 
 
@@ -57,7 +57,7 @@ let arrA = [];
 const filtrA = user.filter(function(arrA){
   return arrA.profession.toLowerCase().includes(searchA);
 })
-console.log(" EX. 3 bis J.Bojko\n v v v v v ");
+console.log(" EX. 3 bis J.Bojko\n      v v v v v ");
 console.log(filtrA);
 
 
