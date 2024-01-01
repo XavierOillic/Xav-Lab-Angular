@@ -60,12 +60,29 @@ const filtrA = user.filter(function(arrA){
 console.log(" EX. 3 bis J.Bojko\n      v v v v v ");
 console.log(filtrA);
 
+/*
+   displayName(fraiseEvent: string) {
+    console.log(fraiseEvent);
+    let searchCard: string = fraiseEvent;
+    let tabFiltre: any | [];
+    tabFiltre = this.usersToDisplay;
 
-function tri() {
-  throw new Error('Function not implemented.');
-}
+    this.usersToDisplay = tabFiltre.filter((User) => {
+      User.first_name.toLowerCase().includes(searchCard);
+    });
+  }
+  }
 
-function filtrS() {
-  throw new Error('Function not implemented.');
-}
+
+
+   displayName(fraiseEvent: string) {
+    this.usersToDisplay.filter(function (User) {
+      let searchCard: string = fraiseEvent;
+      User.first_name.toLowerCase().includes(searchCard);
+    });
+
+    console.log(fraiseEvent); // JUSTE CE QUE J'ECRIS DANS LA SAISIE
+    console.log(this.usersToDisplay); // TOUT LE TABLEAU
+  }
+*/
 
